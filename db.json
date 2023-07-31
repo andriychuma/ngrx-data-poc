@@ -1,0 +1,32 @@
+{
+  "prospects": [
+    { "id": 1, "name": "Prospect 1", "contactIds": [1, 2, 3] },
+    { "id": 2, "name": "Prospect 2", "contactIds": [2, 3, 4, 5, 6] },
+    { "id": 3, "name": "Prospect 3", "contactIds": [] }
+  ],
+  "healthchecks": [
+    { "id": 1, "prospectId": 1, "name": "Healthcheck 1" },
+    { "id": 2, "prospectId": 1, "name": "Healthcheck 2" },
+    { "id": 3, "prospectId": 3, "name": "Healthcheck 3" },
+    { "id": 4, "prospectId": 3, "name": "Healthcheck 4" },
+    { "id": 5, "prospectId": 3, "name": "Healthcheck 5" }
+  ],
+  "contacts": [
+    { "id": 1, "name": "Contact 1" },
+    { "id": 2, "name": "Contact 2" },
+    { "id": 3, "name": "Contact 3" },
+    { "id": 4, "name": "Contact 4" },
+    { "id": 5, "name": "Contact 5" },
+    { "id": 6, "name": "Contact 6" }
+  ],
+  "prospectContactLinks": [
+    { "prospectId": 1, "contactId": 1 },
+    { "prospectId": 1, "contactId": 2 },
+    { "prospectId": 1, "contactId": 3 },
+    { "prospectId": 2, "contactId": 2 },
+    { "prospectId": 2, "contactId": 3 },
+    { "prospectId": 2, "contactId": 4 },
+    { "prospectId": 2, "contactId": 5 },
+    { "prospectId": 2, "contactId": 6 }
+  ]
+}
